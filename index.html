@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogZone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-mono">
+    <header class=" p-4">
+        <div class="container  flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-4xl font-bold text-blue-600">BlogZone</h1>
+            <nav class="mt-4 sm:mt-0">
+                <ul class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Posts</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="image/card1.png" alt="Blog image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold mb-2">Exploring the Mountains</h2>
+                    <p class="text-gray-600 mb-4">A joueney through the most beautiful peaks of the world.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Read
+                        More</a>
+                </div>
+            </div>
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="image/card2.png" alt="Blog image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold mb-2">Quest Supermacy </h2>
+                    <p class="text-gray-600 mb-4">Quest Supermacy is the best manga ever. I like to read it, the
+                        charaters in this manga is all cools .</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Read
+                        More</a>
+                </div>
+            </div>
+            <div
+                class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="image/card3.png" alt="Blog image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold mb-2">Kim Soohyun,</h2>
+                    <p class="text-gray-600 mb-4">He is the main charator in "Quest Supermacy" and he is my favorite
+                        charator. You can try to read or watch this manga highly recommend. </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Read
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 BlogZone. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="#" class="text-blue-300 hover:underline mx-2">Privacy Policy</a>
+                <a href="#" class="text-blue-300 hover:underline mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
